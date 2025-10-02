@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app2
-  namespace: roboshop
+  namespace: app2
   labels: # these labels are deployment labels
     app: app2
 spec:
