@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: muralisanku/ingress1:v1
+        image: muralisanku/app1:v1
         imagePullPolicy: Always
         resources:
           requests:
